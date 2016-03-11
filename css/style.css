@@ -1,0 +1,104 @@
+header {
+  background-image: url("https://asyoues.files.wordpress.com/2010/11/crear_patron_00_141.jpg");
+  --background-color: black;
+  color: white;
+  text-align:center;
+  padding:5px;
+  text-shadow: 0 0 5px blue;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  background-image: url("https://asyoues.files.wordpress.com/2010/11/crear_patron_00_141.jpg");
+  --background-color: black;
+}
+li {
+  float: right;
+  border-left: 1px solid #bbb;
+}
+
+li a {
+    display:inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+main {
+  background-image: url("http://lda.cr/wp-content/uploads/2015/03/fondo-del-sitio-web2.jpg");
+  --background-color: red;
+  float:left;
+  width: 1000px;
+  height: 700px;
+  padding:5px;
+  font-family: sans-serif;
+}
+
+aside > section {
+  --background-color: red;
+  background-image: url("http://lda.cr/wp-content/uploads/2015/03/fondo-del-sitio-web2.jpg");
+  width: 310px;
+  height: 225px;
+  float:right;
+  text-align: justify;
+  font-family: sans-serif;
+  border-radius: 2px;
+  border-color: black;
+  border-left: solid;
+  border-top: solid;
+  padding: 5px;
+}
+
+aside > section:first-child {
+  border-top: none;
+}
+
+aside ~ section {
+  background: yellow;
+  width: 550px;
+  height: 200px;
+  float:left;
+  text-align: left;
+  font-family: sans-serif;
+  border-radius: 5px;
+  border-color: black;
+  border-left: solid;
+}
+
+.sigue {
+  width: 221px;
+}
+section h2{
+  text-align: center;
+  font-style: italic;
+  text-shadow: 0 0 3px lightblue;
+}
+
+article h1 {
+  font-style: italic;
+  text-shadow: 0 0 3px lightblue;
+}
+footer {
+  background-image: url("https://asyoues.files.wordpress.com/2010/11/crear_patron_00_141.jpg");
+  --background-color: black;
+  padding: 5px;
+  color:orange;
+  clear:both;
+  text-align:center;
+  border-style: solid;
+  border-color: black;
+}
+footer:hover {
+  color: blue;
+}
+li a:hover {
+  background-color: yellow;
+  color: black;
+}
+img {
+    height: auto;
+}
