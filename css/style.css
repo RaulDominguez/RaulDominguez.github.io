@@ -29,7 +29,8 @@ li a {
 }
 
 main {
-  background-image: url("http://lda.cr/wp-content/uploads/2015/03/fondo-del-sitio-web2.jpg");
+  --background-image: url("http://lda.cr/wp-content/uploads/2015/03/fondo-del-sitio-web2.jpg");
+  background-image: url("http://images.clipartlogo.com/files/ss/thumb/179/17993299/red-snowflakes-seamless_small.jpg");
   --background-color: red;
   float:left;
   width: 1000px;
@@ -40,7 +41,8 @@ main {
 
 aside > section {
   --background-color: red;
-  background-image: url("http://lda.cr/wp-content/uploads/2015/03/fondo-del-sitio-web2.jpg");
+  --background-image: url("http://lda.cr/wp-content/uploads/2015/03/fondo-del-sitio-web2.jpg");
+  background-image: url("http://images.clipartlogo.com/files/ss/thumb/179/17993299/red-snowflakes-seamless_small.jpg");
   width: 310px;
   height: 225px;
   float:right;
@@ -100,5 +102,37 @@ li a:hover {
   color: black;
 }
 img {
-    height: auto;
+    height: 400px;
+    margin: 0 10px 10px 10px;
+    float: left;
+}
+.bio {
+  line-height: 1.5;
+}
+form {
+  line-height: 2;
+  text-align: center;
+}
+th {
+    background-color:lightblue;
+}
+
+th, td {
+    border-bottom: 1px solid black;
+}
+.boton-enviar {
+  background-color: cyan;
+}
+.boton-enviar:link, .boton-enviar:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.boton-enviar:hover, .boton-enviar:active {
+    background-color: yellow;
+    color: black;
 }
